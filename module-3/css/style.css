@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    text-align: center;
+    font-family: "Playfair Display Regular", serif;
+    font-size: 14pt;
+    color: #626262;
+}
+
+.signature_img{
+    font-family: "Ubuntu light", serif;
+}
+
+li, .signature_img {
+    text-transform: uppercase;
+    padding: 30px 0 30px 0;
+}
+
+li {
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    margin-left: 100px;
+}
+li > a{
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:-webkit-link;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.art1{
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 130px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.art2{
+    display: inline-block;
+    width: 420px;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.art1_end{
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    text-align: left;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+button{
+    margin-bottom: 60px;
+    height: 50px;
+    width: 160px;
+    border-color: #626262;
+    background: white;
+}
