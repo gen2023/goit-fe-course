@@ -46,16 +46,15 @@ li:last-child {
     margin-bottom: 130px;
     margin-left: auto;
     text-align: left;
-    padding-left: 60px;
+    padding-right: 0px;
 }
 
-.art_end{
-    display: inline-block;
-    width: 420px;
+.art:nth-child(even){
+    padding-right: 60px;
+}
+
+.art:nth-last-of-type(-n + 2){
     margin-bottom: 40px;
-    margin-left: auto;
-    text-align: left;
-    padding-left: 60px;
 }
 
 h2{
