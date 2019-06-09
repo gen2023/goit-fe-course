@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 body{
@@ -63,8 +64,8 @@ h2{
 
 button{
     margin-bottom: 60px;
-    height: 50px;
-    width: 160px;
+    padding: 22px 33px;
     border-color: #626262;
     background: white;
+    cursor: pointer;
 }
