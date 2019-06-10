@@ -11,10 +11,12 @@ body{
     font-family: "Playfair Display Regular", serif;
     font-size: 14pt;
     color: #626262;
+    font-size: 14pt;
 }
 
 .signature_img{
     font-family: "Ubuntu light", serif;
+    color: #b4ad9e;
 }
 
 li, .signature_img {
