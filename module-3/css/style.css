@@ -1,5 +1,5 @@
 body{
-    font-family: "Playfair Display Regular", serif;
+    font-family: 'Playfair Display', serif;
     color: #626262;
     font-size: 14px;
     font-weight: 400;
@@ -42,9 +42,10 @@ main{
 }
 
 .signature_img{
-    font-family: "Ubuntu light", serif;
+    font-family: 'Ubuntu', serif;
     color: #b4ad9e;
     padding: 30px 0px;
+    font-weight: 300;
 }
 
 .art{
