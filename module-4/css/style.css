@@ -76,7 +76,7 @@ h2::after{
 .art{
     float: left;
     margin-bottom: 30px;
-    width: 277px;
+    width: 285px;
 }
 
 .art:hover > .name{
@@ -87,17 +87,19 @@ h2::after{
     opacity: 0.5;
 }
 
+.art:nth-of-type(4n){
+    width:255px;
+}
+
+.art:nth-last-of-type(-n+4){
+    margin-bottom: 0;
+}
+
 .img_featured{
     background: #e9f0fd;
     float: left;
-    margin-right: 22px;
     width: 255px;
-    height: 360px;
-    
-}
-
-.img_featured:nth-child(n + 4){
-    margin-right: 0px;
+    height: 360px;    
 }
 
 .name, .price{
@@ -114,18 +116,21 @@ h2::after{
 .name{
     background: #323232;
     padding-left: 14px;
-
     width: 186px;
-
 }
 
 .price{
     float: right;
     background: #53535d;
-    margin-right: 22px;
+    margin-right: 30px;
     width: 55px;
     text-align: center;
 }
+
+.art:nth-of-type(4n)>.price{
+    margin-right: 0;
+}
+
 /*news*/
 .art_news{
     float:left;
@@ -157,6 +162,11 @@ h3::after{
     font-size: 14px;
     line-height: 26px;
     width: 355px;
+}
+
+.img_news{
+    width: 350px;
+    height: 260px;
 }
 
 button{
