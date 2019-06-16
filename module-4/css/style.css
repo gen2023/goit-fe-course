@@ -81,11 +81,11 @@ h2::after{
     width: 285px;
 }
 
-.art:hover > .name{
+.art a:hover > .name{
     background: #1abc9c;
 }
 
-.art:hover > .price{
+.art a:hover > .price{
     opacity: 0.5;
 }
 
@@ -129,7 +129,7 @@ h2::after{
     text-align: center;
 }
 
-.art:nth-of-type(4n)>.price{
+.art:nth-of-type(4n)> a .price{
     margin-right: 0;
 }
 
@@ -139,7 +139,7 @@ h2::after{
     width: 370px;
 }
 
-h3::after{
+.art_news > h3::after{
     display: block;
     content: "";
     padding-top: 11px;
