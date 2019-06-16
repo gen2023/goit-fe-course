@@ -1,0 +1,22 @@
+html, body, div, p, ul, li,
+article, header, nav, h2, h1, h3, span, img {
+ 
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+article, header, nav {
+   display: block;
+}
+ 
+ol, ul {
+list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
