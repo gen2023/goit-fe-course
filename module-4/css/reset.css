@@ -366,4 +366,6 @@ textarea {
 
 .clearfix {
    overflow: auto;
+   overflow-x: hidden;
+   overflow-y: hidden;
  }
