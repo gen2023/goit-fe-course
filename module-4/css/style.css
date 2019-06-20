@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700|Roboto:300,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto:300,900&display=swap');
 
 body{
     font-size: 14px;
@@ -9,6 +9,12 @@ body{
     margin: 0 auto;
 }
 
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
 .block{
     margin-top: 105px;
 }
@@ -17,6 +23,10 @@ body{
     color: #1abc9c;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+.logo a{
+    color:#555252;
 }
 
 nav ul{
@@ -84,7 +94,6 @@ h2::after{
 }
 
 .art:nth-of-type(4n){
-    width:255px;
     margin-right: 0;
 }
 
@@ -154,29 +163,27 @@ h2::after{
 .text{
     padding-top: 34px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color:#555252;
     font-size: 14px;
     line-height: 26px;
 
 }
 
-.img_news{
-    width: 350px;
-    height: 260px;
-}
-
-button{
-    display: block;
+.button{
     font-size: 16px;
     border-radius:5px;
     margin-bottom: 92px;
     margin-top: 15px;
-    height: 51px;
     width: 160px;
     background: #4ec6ab;
-    cursor: pointer;
-    color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.button a{
+    color:#fff;
 }

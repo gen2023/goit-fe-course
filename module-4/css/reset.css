@@ -363,9 +363,3 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-.clearfix {
-   overflow: auto;
-   overflow-x: hidden;
-   overflow-y: hidden;
- }
