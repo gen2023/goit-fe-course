@@ -107,7 +107,7 @@ h2::after{
 }
 
 .name, .price{
-    
+    float:left;
     color:#fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -120,7 +120,6 @@ h2::after{
 
 .name_price{
     background: #323232;
-    float:left;
 }
 .name{
     padding-left: 14px;
