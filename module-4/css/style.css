@@ -13,6 +13,7 @@ body{
     display: table;
     content: '';
     clear: both;
+    float:left;
 }
 
 .block{
@@ -106,7 +107,7 @@ h2::after{
 }
 
 .name, .price{
-    float:left;
+    
     color:#fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
