@@ -72,11 +72,13 @@ nav ul li a:hover, li a:focus{
 
 .content_slider{
     width: 1110px;
-    margin: 0 auto;
-    padding-top: 14%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
 }
 
-.content_slider a:hover{
+.content_slider button:hover{
     background:#1abc9c;
 }
 
@@ -93,6 +95,7 @@ nav ul li a:hover, li a:focus{
 .ico_left, .ico_right{
     padding:33px 41px;
     background: #4ec6ab;
+    border:none;
 }
 
 .ico_left{
@@ -213,13 +216,17 @@ nav ul li a:hover, li a:focus{
     display: none;
     background-color:rgba(0, 0, 0, 0.5);
     position: absolute;
-
     text-align: center;
-
     left: 10px;
     top: 10px;
     bottom: 50px;
     right: 10px;
+}
+
+.overlay_buttons{
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
 }
 
 .ico:hover, .ico:last-child:hover{
