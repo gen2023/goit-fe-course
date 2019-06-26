@@ -181,7 +181,7 @@ nav ul li a:hover, li a:focus{
     background: #fff;    
 }
 
-.name a, .price a{
+a .name, a .price{
     color:#fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
