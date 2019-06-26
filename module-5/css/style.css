@@ -181,16 +181,21 @@ nav ul li a:hover, li a:focus{
     background: #fff;    
 }
 
-.name, .price{
-    float:left;
+.name a, .price a{
     color:#fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 18px;
-    height: 39px;
-    vertical-align: middle;
     text-transform: uppercase;
     line-height: 39px;
+}
+
+.name, .price{
+    float:left;
+    
+    height: 39px;
+    vertical-align: middle;
+
 }
 
 .name_price{
