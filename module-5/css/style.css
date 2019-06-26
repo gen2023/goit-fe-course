@@ -191,11 +191,9 @@ nav ul li a:hover, li a:focus{
 }
 
 .name, .price{
-    float:left;
-    
+    float:left;    
     height: 39px;
     vertical-align: middle;
-
 }
 
 .name_price{
