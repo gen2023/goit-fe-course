@@ -82,13 +82,14 @@ nav ul li a:hover, li a:focus{
     background:#1abc9c;
 }
 
-.overlay_slider{
+.slid::before{
     background-color:rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    content: "";
 }
 
 .ico_left, .ico_right{
