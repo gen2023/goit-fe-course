@@ -83,7 +83,6 @@ nav ul li a:hover, li a:focus{
 }
 
 .overlay_slider{
-   /* display: none;*/
     background-color:rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
@@ -111,10 +110,10 @@ nav ul li a:hover, li a:focus{
 }
 
 .text_slider{
-    text-align: center;
     color:#fff;
-    float:left; 
-    width: 81%;
+    position: absolute;
+    top: -27px;
+    left: 180px;
 }
 
 .text_slider h2{
@@ -233,7 +232,7 @@ a .name, a .price{
 }
 
 .ico:hover, .ico:last-child:hover{
-    background: #1abc9c;
+    background-color: #1abc9c;
 }
 
 .ico{
@@ -243,13 +242,38 @@ a .name, a .price{
     margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 79px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 52px;
+}
+
+.but1{
+    background-image: url(../img/ico/ico1.png);
+}
+
+.but2{
+    background-image: url(../img/ico/ico2.png);    
+}
+
+.but3{
+    background-image: url(../img/ico/ico3.png);    
+}
+
+.ico:nth-child(3){
+    margin-right: 0;
 }
 
 .ico:last-child{
     margin: 0;    
     color:#fff;
     text-transform: uppercase;
-    background: #53535d;
+    background-color: #53535d;
+    background-position: 10px;
+    width: 186px;
+    padding-left: 40px;
+    background-image: url(../img/ico/ico_cart.png);
 }
 
 /*footer*/
@@ -264,5 +288,9 @@ a .name, a .price{
     padding-top: 38px;
     padding-bottom: 33px;
     text-align: center;
+}
+
+.footer a{
+    color:#46bfa9;
 }
 
