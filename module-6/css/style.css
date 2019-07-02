@@ -148,7 +148,7 @@ ul li a:hover, ul li a:focus{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    width: 941px;
+    max-width: 941px;
     text-align: center;
     color:#999999;
     line-height: 24px;
@@ -294,7 +294,7 @@ input[type="text"]{
     border: 1px solid #cccccc;
 }
 
-input[type="button"]{
+input[type="submit"]{
     width: 150px;
     height: 40px;
     color:#fff;
