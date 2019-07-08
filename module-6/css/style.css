@@ -231,9 +231,10 @@ ul li a:hover, ul li a:focus{
 }
 
 .overlay_buttons{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: relative;
     top: 44%;
-    transform: translate(30%,0%);
 }
 
 .ico{
@@ -244,6 +245,11 @@ ul li a:hover, ul li a:focus{
     background-repeat: no-repeat;
     width: 56px;
     height: 56px;
+    margin-right: 1px;
+}
+
+.ico:last-child{
+    margin-right: 0;
 }
 
 .ico:hover{
