@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), 
+        url(../font/wisdom-script/Wisdom_Script_AJ.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Nexa Slab Regular';
+    font-weight: normal;
+    font-style: normal;
+    src:local('Nexa Slab Regular'), 
+        url(../font/nexaslab/NexaSlab-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'),
+         url(../font/roboto_slab/roboto-slab-regular.woff2) format('woff2'), /* Super Modern Browsers */
+         url(../font/roboto_slab/roboto-slab-regular.woff) format('woff'); /* Modern Browsers */
+  }
+  /* roboto-slab-700 - latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Slab Bold'),
+         url(../font/roboto_slab/roboto-slab-700.woff2) format('woff2'), /* Super Modern Browsers */
+         url(../font/roboto_slab/roboto-slab-700.woff) format('woff'); /* Modern Browsers */
+  }
+
+  @font-face {
+	font-family: 'Droid Serif';
+	src: url(../font/DroidSerif/DroidSerif-Italic.woff);
+	src: local('Droid Serif Italic'), local('DroidSerif-Italic'),
+		url(../font/DroidSerif/DroidSerif-Italic.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Bold'), local('Montserrat-Bold'),
+		url(../font/Montserrat/Montserrat-Bold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
