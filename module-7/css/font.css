@@ -46,12 +46,3 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.eot');
-	src: local('Montserrat Regular'), local('Montserrat-Regular'),
-		url(../font/Montserrat/Montserrat-Regular.woff) format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
