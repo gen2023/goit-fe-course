@@ -25,7 +25,7 @@
 @font-face {
 	font-family: 'Roboto Slab';
 	src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-		url('RobotoSlab-Regular.woff') format('woff');
+		url(../font/RobotoSlab/RobotoSlab-Regular.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -44,5 +44,14 @@
 	src: local('Montserrat Bold'), local('Montserrat-Bold'),
 		url(../font/Montserrat/Montserrat-Bold.woff) format('woff');
 	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url(../font/Montserrat/Montserrat-Regular.woff) format('woff');
+	font-weight: normal;
 	font-style: normal;
 }

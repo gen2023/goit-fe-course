@@ -24,7 +24,7 @@ body{
 
 .logo{
     font-size: 26px;
-    font-family:'Wisdom Script Regular';
+    font-family:var(--font-logo);
     font-weight:normal;
 }
 
@@ -40,8 +40,9 @@ body{
 .header ul li{
     margin-right: 40px;
     text-transform: uppercase;
-    font-family:'Nexa Slab Regular';
+    font-family:var(--font-menu);
     font-weight:normal;
+    font-style: normal;
     padding-top: 15px;
 }
 
@@ -54,15 +55,16 @@ body{
 .title-h2{
     font-size: 40px;
     text-transform: uppercase;
-    font-family: 'Roboto Slab';
+    font-family: var(--font-Roboto);
     font-weight: bold;
     font-style: normal;
+    margin-bottom: 13px;
 }
 
 .sub-title{
     font-size: 16px;
     color:#777;
-    font-family: 'Droid Serif';
+    font-family: var(--font-sub-title);
     font-weight: normal;
     font-style: italic;
 }
@@ -75,18 +77,20 @@ body{
 
 .title-h3{
     font-size: 18px;
-    line-height: 32px;
-    font-family:'Roboto Slab Regular';
+    margin-top: 25px;
+    margin-bottom: 15px;;
+    font-family:var(--font-Roboto);
     font-style: normal;
-    font-weight:400;
+    font-weight:bold;
 }
 
 .text{
-    font-size: 14px;
+    font-size: 13px;
     color: #777;
-    font-family: 'Roboto Slab';
+    font-family: var(--font-Roboto);
     font-weight: normal;
     font-style: normal;
+    line-height: 19px;
 }
 
 .ico1::before, .ico2::before, .ico3::before{
@@ -95,6 +99,11 @@ body{
 
 .art{
     width: 274px;
+    margin-right: 51px;
+}
+
+.art:last-child{
+    margin-right: 0;
 }
 
 .art::before{
@@ -150,7 +159,7 @@ input::placeholder, textarea::placeholder{
     font-size: 14px;
     color:#bbb;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: var(--font-Montserrat);
     font-weight: bold;
     font-style: normal;
 }
@@ -159,8 +168,8 @@ input[type="text"], input[type="email"], textarea{
     padding: 14px 20px;
     width: 411px;
     margin-bottom: 30px;
-    border-radius: 10px;
-    font-family: 'Roboto Slab';
+    border-radius: 5px;
+    font-family: var(--font-Roboto);
     font-weight: normal;
     font-style: normal;
 }
@@ -185,8 +194,8 @@ input[type="submit"]{
     text-transform: uppercase;
     padding: 25px 47px;
     margin-bottom: 115px;
-    border-radius: 10px;
-    font-family: 'Montserrat';
+    border-radius: 5px;
+    font-family: --font-Montserrat;
     font-weight: bold;
     font-style: normal;
 }
