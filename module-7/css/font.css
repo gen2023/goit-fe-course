@@ -6,14 +6,6 @@
         url(../font/wisdom-script/Wisdom_Script_AJ.woff) format('woff');
 }
 
-@font-face{
-	font-family: 'Nexa Slab Regular';
-    font-weight: normal;
-    font-style: normal;
-    src:local('Nexa Slab Regular'), 
-        url(../font/nexaslab/NexaSlab-Regular.woff) format('woff');
-}
-
 @font-face {
 	font-family: 'Roboto Slab';
 	src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
