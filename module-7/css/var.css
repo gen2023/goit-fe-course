@@ -1,7 +1,9 @@
 :root{
     --font-logo:Wisdom Script Regular;
-    --font-menu:Nexa Slab Regular;
-    --font-Roboto:Roboto Slab;
+    --font-menu:Montserrat;
+    --font-text:Roboto Slab;
     --font-sub-title:Droid Serif;
-    --font-Montserrat:Montserrat;
+    --font-title:Montserrat;
+    --font-placeholder-form:Montserrat;
+    --font-button-form:Montserrat;
 }

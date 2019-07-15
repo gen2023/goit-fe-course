@@ -1,3 +1,6 @@
+@import url(var.css);
+@import url(reset.css);
+@import url(font.css);
 
 body{
     text-align: center;
@@ -28,7 +31,11 @@ body{
     font-weight:normal;
 }
 
-.logo a:hover, .logo a:focus, .menu a:hover{
+.logo a{
+    color:#fed136;
+}
+
+.menu a:hover, .menu a:focus{
     color:#fed136;
 }
 
@@ -41,7 +48,7 @@ body{
     margin-right: 40px;
     text-transform: uppercase;
     font-family:var(--font-menu);
-    font-weight:normal;
+    font-weight:600;
     font-style: normal;
     padding-top: 15px;
 }
@@ -55,7 +62,7 @@ body{
 .title-h2{
     font-size: 40px;
     text-transform: uppercase;
-    font-family: var(--font-Roboto);
+    font-family: var(--font-title);
     font-weight: bold;
     font-style: normal;
     margin-bottom: 13px;
@@ -79,15 +86,15 @@ body{
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 15px;;
-    font-family:var(--font-Roboto);
+    font-family:var(--font-title);
     font-style: normal;
     font-weight:bold;
 }
 
 .text{
-    font-size: 13px;
+    font-size: 14px;
     color: #777;
-    font-family: var(--font-Roboto);
+    font-family: var(--font-text);
     font-weight: normal;
     font-style: normal;
     line-height: 19px;
@@ -98,8 +105,8 @@ body{
 }
 
 .art{
-    width: 274px;
-    margin-right: 51px;
+    /* width: 274px; */
+    margin-right: 36px;
 }
 
 .art:last-child{
@@ -159,7 +166,7 @@ input::placeholder, textarea::placeholder{
     font-size: 14px;
     color:#bbb;
     text-transform: uppercase;
-    font-family: var(--font-Montserrat);
+    font-family: var(--font-placeholder-form);
     font-weight: bold;
     font-style: normal;
 }
@@ -169,7 +176,7 @@ input[type="text"], input[type="email"], textarea{
     width: 411px;
     margin-bottom: 30px;
     border-radius: 5px;
-    font-family: var(--font-Roboto);
+    font-family: var(--font-text);
     font-weight: normal;
     font-style: normal;
 }
@@ -195,7 +202,7 @@ input[type="submit"]{
     padding: 25px 47px;
     margin-bottom: 115px;
     border-radius: 5px;
-    font-family: --font-Montserrat;
+    font-family: --font-button-form;
     font-weight: bold;
     font-style: normal;
 }

@@ -46,3 +46,11 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+		url(../font/Montserrat/Montserrat-SemiBold.woff) format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
