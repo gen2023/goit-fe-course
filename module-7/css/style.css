@@ -181,6 +181,10 @@ input[type="text"], input[type="email"], textarea{
     font-style: normal;
 }
 
+textarea{
+    resize: none;
+}
+
 .left_content{
     display: flex;
     flex-direction: column;
@@ -202,7 +206,7 @@ input[type="submit"]{
     padding: 25px 47px;
     margin-bottom: 115px;
     border-radius: 5px;
-    font-family: --font-button-form;
+    font-family: var(--font-button-form);
     font-weight: bold;
     font-style: normal;
 }
