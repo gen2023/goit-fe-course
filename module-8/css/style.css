@@ -27,7 +27,7 @@ header{
     text-transform: uppercase;
 }
 
-.logo_mob a, .logo a{
+.logo_mob a, .logo{
     color:#fff;
 }
 
@@ -43,12 +43,14 @@ button{
     font-family: var(--font-menu);
     font-weight: 700;
     font-size: 14px;
-    padding: 10px 19px;
+    width: 98px;
+    height: 36px;
 }
 
 button:hover, button:focus{
     border-radius: 20px;
     border: 2px solid #fff;
+    cursor: pointer;
 }
 
 /*baner*/
@@ -188,60 +190,60 @@ button:hover, button:focus{
 
 @media screen and (min-width: 768px) and (max-width: 960px) {    
 /*header*/
-.container1{
-    width: 100%;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    display: block;
-    padding-top: 13px;
-    padding-left: 40px;
-}
-.navigation{
-    padding-right: 40px;
-}
+    .container1{
+        width: 100%;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        display: block;
+        padding-top: 13px;
+        padding-left: 40px;
+    }
+    .navigation{
+        padding-right: 40px;
+    }
 /*baner*/
-.container{
-    width: 504px;
-}
-.logo_mob{
-    display: none;
-}
-.title_baner{
-    font-size: 52px;
-    padding-bottom: 40px;
-}
-.sub_title{
-    font-size: 24px;
-    padding-bottom: 48px;
-}
-.baner{
-    margin-bottom: 72px;
-}
+    .container{
+        width: 504px;
+    }
+    .logo_mob{
+        display: none;
+    }
+    .title_baner{
+        font-size: 52px;
+        padding-bottom: 40px;
+    }
+    .sub_title{
+        font-size: 24px;
+        padding-bottom: 48px;
+    }
+    .baner{
+        margin-bottom: 72px;
+    }
 /*main*/
-.title{
-    margin-bottom: 31px;
-}
-.article{
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 53px;
-}
-.art1_order{
-    order:0;
-}
-.art2_order{
-    order:3;
-}
-.art3_order{
-    order:2;
-}
-.art4_order{
-    order:4;
-}
+    .title{
+        margin-bottom: 31px;
+    }
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 53px;
+    }
+    .art1_order{
+        order:0;
+    }
+    .art2_order{
+        order:3;
+    }
+    .art3_order{
+        order:2;
+    }
+    .art4_order{
+        order:4;
+    }
 }
 
 @media screen and (min-width: 961px){
