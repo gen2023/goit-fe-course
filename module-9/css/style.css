@@ -9,12 +9,9 @@ header{
     top: 0;
     right: 0;
 }
-.containers, .container1{
-    width: 311px;
-    margin: 0 auto;
-}
 .header{
     padding-top: 33px;
+    text-align: center;
 }
 .logo{
     display: none;
@@ -34,11 +31,6 @@ header{
 .logo_mob a:hover, .logo:hover, .button_baner:hover{
     text-decoration: none;
     color:#fff;
-}
-
-.navigation ul{
-    display: flex;
-    justify-content: center;
 }
 
 button{
@@ -66,6 +58,10 @@ button:hover, button:focus{
     height:542px;
     margin-bottom: 68px;
     background: rgba(26, 25, 21, 0.9) url(../img/banner.png) center/cover no-repeat;
+}
+
+.baner_content{
+    margin: 0 auto;
 }
 
 .logo_mob{
@@ -200,9 +196,6 @@ button:hover, button:focus{
 
 @media screen and (min-width: 768px) and (max-width: 960px) {    
 /*header*/
-    .container1{
-        width: 100%;
-    }
     .header{
         display: flex;
         justify-content: space-between;
@@ -212,13 +205,7 @@ button:hover, button:focus{
         padding-top: 13px;
         padding-left: 40px;
     }
-    .navigation{
-        padding-right: 40px;
-    }
 /*baner*/
-    .containers{
-        width: 534px;
-    }
     .logo_mob{
         display: none;
     }
@@ -257,9 +244,6 @@ button:hover, button:focus{
 }
 
 @media screen and (min-width: 961px){
-    .container1{
-        width: 100%;
-    }
     .header{
         display: flex;
         justify-content: space-between;
@@ -269,13 +253,7 @@ button:hover, button:focus{
         padding-top: 13px;
         padding-left: 40px;
     }
-    .navigation{
-        padding-right: 40px;
-    }
     /*baner*/
-    .containers, .container1{
-        width: 960px;
-    }
     .logo_mob{
         display: none;
     }
