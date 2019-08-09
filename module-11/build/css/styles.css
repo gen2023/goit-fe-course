@@ -900,6 +900,17 @@ header {
   color: #fce38a;
 }
 
+.header_menu__a_svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.header_menu__a_svg:hover,
+.header_menu__a_svg:focus {
+  fill: #fce38a;
+}
+
 .header_menu_li {
   margin-right: 54px;
 }
@@ -1034,27 +1045,27 @@ header {
 }
 
 .ico_alarm::before {
-  background: url(../images/icons/icon-alarm.svg);
+  background: url(../images/icon_section/icon-alarm.svg);
 }
 
 .ico_line_graph::before {
-  background: url(../images/icons/icon-linegraph.svg);
+  background: url(../images/icon_section/icon-linegraph.svg);
 }
 
 .ico_computer::before {
-  background: url(../images/icons/icon-computer.svg);
+  background: url(../images/icon_section/icon-computer.svg);
 }
 
 .ico_book::before {
-  background: url(../images/icons/icon-book.svg);
+  background: url(../images/icon_section/icon-book.svg);
 }
 
 .ico_home::before {
-  background: url(../images/icons/icon-home.svg);
+  background: url(../images/icon_section/icon-home.svg);
 }
 
 .ico_image::before {
-  background: url(../images/icons/icon-image.svg);
+  background: url(../images/icon_section/icon-image.svg);
 }
 
 /*section2*/

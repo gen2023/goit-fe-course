@@ -49,6 +49,16 @@ header{
       border-bottom: 3px solid $color-hover;
       color: $color-hover;
     }
+
+    &_svg{
+      width: 20px;
+      height: 20px;
+      fill: $color-menu;
+
+      &:hover, &:focus{
+        fill: $color-hover;
+      }
+    }
   }
 
   &_li{
@@ -192,27 +202,27 @@ header{
 }
 
 .ico_alarm::before{
-  background: url(../images/icons/icon-alarm.svg);
+  background: url(../images/icon_section/icon-alarm.svg);
 }
 
 .ico_line_graph::before{
-  background: url(../images/icons/icon-linegraph.svg);
+  background: url(../images/icon_section/icon-linegraph.svg);
 }
 
 .ico_computer::before{
-  background: url(../images/icons/icon-computer.svg);
+  background: url(../images/icon_section/icon-computer.svg);
 }
 
 .ico_book::before{
-  background: url(../images/icons/icon-book.svg);
+  background: url(../images/icon_section/icon-book.svg);
 }
 
 .ico_home::before{
-  background: url(../images/icons/icon-home.svg);
+  background: url(../images/icon_section/icon-home.svg);
 }
 
 .ico_image::before{
-  background: url(../images/icons/icon-image.svg);
+  background: url(../images/icon_section/icon-image.svg);
 }
 
 /*section2*/
